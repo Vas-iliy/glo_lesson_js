@@ -23,7 +23,7 @@ function addItem() {
 }
 
 function dellItem() {
-    myList.removeChild(story[0]);
+    myList.removeChild(li[0]);
     if (li.length === 0) {
         popup.style.display = 'block';
     }
